@@ -9,7 +9,7 @@ searchForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
     const address = searchInput.value
-    const url = 'http://localhost:3000/weather?address=' + address
+    const url = '/weather?address=' + address
 
     messageOne.textContent = 'Loading...'
     messageTwo.textContent = ''
